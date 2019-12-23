@@ -51,13 +51,11 @@ class FindImageLogicTerms : LogicTerms {
 			if (image != null && !useLocation) {
 				ImageUtils.findImage(ScreenUtils.getNowScreenImage(), image!!) != null
 			} else if (image != null && useLocation) {
-				println("匹配图$location ${image!!.width},${image!!.height}")
 				val subimage = ScreenUtils.getNowScreenImage()
 					.getSubimage(location.x, location.y, image!!.width, image!!.height)
 				ImageUtils.matchImage(subimage, image!!)
 			} else false
 
-		println("图片匹配:" + result)
 		return if (reverse) !result else result
 	}
 

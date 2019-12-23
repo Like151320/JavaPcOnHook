@@ -35,7 +35,6 @@ object ImageUtils {
 	fun matchImage(image1: BufferedImage, image2: BufferedImage): Boolean {
 		for (x in 0 until image1.width) {
 			for (y in 0 until image1.height) {
-				println("匹配 $x - $y")
 				if (image1.getRGB(x, y) != image2.getRGB(x, y)) return false
 			}
 		}

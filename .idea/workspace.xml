@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PcTest:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="17f7074f-0627-4dfb-ad39-b86908bc0607" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +55,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="project.structure.side.proportion" value="0.20114942" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -283,6 +288,7 @@
       <workItem from="1576803450675" duration="21971000" />
       <workItem from="1577065722430" duration="18123000" />
       <workItem from="1577090939921" duration="2998000" />
+      <workItem from="1577094168343" duration="1812000" />
     </task>
     <servers />
   </component>
@@ -306,30 +312,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577090224385" />
+    <state x="697" y="399" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577094756496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="399" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577094756496" />
     <state x="739" y="166" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1577081619549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="166" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577081619549" />
-    <state x="735" y="261" key="FileChooserDialogImpl" timestamp="1576746972198">
+    <state x="735" y="261" key="FileChooserDialogImpl" timestamp="1577095044090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="735" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576746972198" />
-    <state width="1877" height="217" key="GridCell.Tab.0.bottom" timestamp="1577093783601">
+    <state x="735" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577095044090" />
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom" timestamp="1577096049689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577093783601" />
-    <state width="1877" height="217" key="GridCell.Tab.0.center" timestamp="1577093783600">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577096049689" />
+    <state width="1877" height="217" key="GridCell.Tab.0.center" timestamp="1577096049689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577093783600" />
-    <state width="1877" height="217" key="GridCell.Tab.0.left" timestamp="1577093783599">
+    <state width="1877" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577096049689" />
+    <state width="1877" height="217" key="GridCell.Tab.0.left" timestamp="1577096049689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577093783599" />
-    <state width="1877" height="217" key="GridCell.Tab.0.right" timestamp="1577093783600">
+    <state width="1877" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577096049689" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right" timestamp="1577096049689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577093783600" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577096049689" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1577093102347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,18 +356,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577093102347" />
-    <state x="447" y="212" key="SettingsEditor" timestamp="1576811026633">
+    <state x="478" y="103" key="SettingsEditor" timestamp="1577095133198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="447" y="212" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576811026633" />
+    <state x="478" y="103" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577095133198" />
+    <state x="827" y="387" key="classpath-attribute-editor" timestamp="1577094941086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="387" key="classpath-attribute-editor/0.0.1920.1040@0.0.1920.1040" timestamp="1577094941086" />
     <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576741854595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576741854595" />
-    <state x="631" y="119" width="714" height="801" key="find.popup" timestamp="1577094009936">
+    <state x="631" y="119" width="714" height="801" key="find.popup" timestamp="1577095997039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="119" width="714" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577094009936" />
+    <state x="631" y="119" width="714" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577095997039" />
     <state x="680" y="162" key="refactoring.ChangeSignatureDialog" timestamp="1576822479742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,7 +386,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/MainClass.kt</url>
-          <line>137</line>
+          <line>140</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

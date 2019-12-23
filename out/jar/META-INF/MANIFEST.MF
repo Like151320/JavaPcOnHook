@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: MainClassKt
+Class-Path: libs/opencv-412.jar libs/jintellitype-1.3.9.jar libs/kotlin-
+ reflect.jar libs/kotlin-stdlib.jar libs/kotlin-test.jar libs/kotlin-std
+ lib-jdk7.jar libs/kotlin-stdlib-jdk8.jar
+

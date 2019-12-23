@@ -57,7 +57,6 @@ object MainClass {
 			}
 
 			//保存图片
-			println("截图:${startLocation} ${end.x - startLocation.x},${end.y - startLocation.y}")
 			val image = ScreenUtils.getNowScreenImage().getSubimage(
 				startLocation.x,
 				startLocation.y,
@@ -89,10 +88,13 @@ object MainClass {
 						val checkSuccess: Boolean = termsList.all { it.checkTerms() }
 						println("check - $checkSuccess")
 
-						if (checkSuccess) {
+						if (checkSuccess) { //TODO 多线程有临界值风险
+							//TODO 动作太单调
+							val lastLocation = getMouseLocation()
 							robot.mouseMove(mousePoint.x, mousePoint.y)
 							robot.mousePress(InputEvent.BUTTON1_MASK)
 							robot.mouseRelease(InputEvent.BUTTON1_MASK)
+							robot.mouseMove(lastLocation.x, lastLocation.y)
 						}
 
 						Thread.sleep(delay)
